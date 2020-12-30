@@ -1,0 +1,166 @@
+body{
+    background-color: #184444;
+}
+nav{
+    border-radius: 25px;
+   
+}
+#search_box{
+    width: 70%;
+    border: 2px solid slategrey;
+    padding: 10px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 30px;
+}
+#search_box>h1{
+    color: slategrey;
+    font-size: 30px;
+}
+
+#search_box >input{
+    width: 70%;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: none;
+    outline:none;
+    padding-left: 12px;
+    
+    
+
+}
+#search_box >button{
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: steelblue;
+    color: white;
+}
+
+
+
+#user_box{
+    width: 70%;
+    border: 2px solid slategrey;
+    padding: 10px;
+    margin: 50px auto;
+    overflow: hidden;
+    color: white;
+    border-radius: 25px;
+}
+.user_item{
+    width: 25%;
+    border: 2px solid steelblue;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.user_item>button{
+    color: black;
+    border-radius: 25px;
+    background-color: slategrey;
+    border: none;
+    outline: none;
+   
+}
+
+nav{
+    width: 70%;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 50px auto;
+    overflow: hidden;
+    color: white;
+}
+nav>h2{
+    text-align: center;
+    color: cornflowerblue;
+}
+nav>h2>span{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+#filters{
+    width: 155px;
+    height: 23%;
+    border: 2px solid steelblue;
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    color: white;
+    background-color: #184444;
+    display: none;
+    border-radius: 25px;
+}
+#filters>p{
+    width: 70%;
+    display: none;
+    text-align: center;
+}
+#filters>select,#filters>button{
+    font-size: 18px;
+    width: 80%;
+    margin: 3% 8%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    
+}
+
+
+
+
+
+
+#login_box{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 33vh;
+    position: absolute;
+    left: 60%;
+    margin-left: -300px;
+    top: 15%;
+    background-color: teal;
+    color: white;
+    display: none; 
+    border-radius: 20px;
+
+}
+#login_box >h2{
+    text-align: center;
+    font-size: 25px;
+}
+#login_box >p{
+    
+    font-size: 20px;
+    text-align: center;
+}
+#login_box >input{
+    
+    font-size: 20px;
+    text-align: center;
+    margin: 3% 25%;
+    width: 55%;
+    height: 3vh;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+#login_box >button{
+    
+    font-size: 15px;
+    text-align: center;
+    margin: 3% 34%;
+    width: 35%;
+    height: 3vh;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
